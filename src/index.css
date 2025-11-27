@@ -989,40 +989,6 @@ h1, h2, h3, .welcome-title, .statement-title, .logo-letter {
   box-shadow: 0 6px 20px #667eea66;
 }
 
-.essec-screen {
-  background: #fff;
-}
-
-.essec-content {
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  display: flex;
-}
-
-.essec-logo {
-  width: clamp(200px, 40vw, 350px);
-  height: auto;
-}
-
-.essec-title {
-  color: #4a5d7f;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  margin-bottom: .25rem;
-  font-size: clamp(1.25rem, 3vw, 2rem);
-  font-weight: 500;
-}
-
-.essec-location {
-  color: #667eea;
-  letter-spacing: .08em;
-  margin-top: 0;
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-  font-style: italic;
-  font-weight: 400;
-}
-
 .statement-content {
   max-width: 600px;
 }
@@ -1898,35 +1864,6 @@ h3,
 .construction-link:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-}
-.essec-screen {
-  background: #ffffff;
-}
-.essec-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-.essec-logo {
-  width: clamp(200px, 40vw, 350px);
-  height: auto;
-}
-.essec-title {
-  color: #4a5d7f;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: clamp(1.25rem, 3vw, 2rem);
-  font-weight: 500;
-  margin-bottom: 0.25rem;
-}
-.essec-location {
-  color: #667eea;
-  letter-spacing: 0.08em;
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-  font-weight: 400;
-  font-style: italic;
-  margin-top: 0;
 }
 .statement-content {
   max-width: 600px;

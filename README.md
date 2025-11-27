@@ -7,7 +7,7 @@
 
 ## 📖 About the Project
 
-**Wonderful World of Manipulative Marketing (WWMM)** is an artistic and educational platform that makes manipulative marketing techniques visible through experiential learning. Created by students in the **CCM (Comprendre & Changer le Monde)** program at **ESSEC Business School**, WWMM transforms marketing techniques into interactive, narrative worlds where visitors can experience influence first-hand.
+**Wonderful World of Manipulative Marketing (WWMM)** is an artistic and educational platform that makes manipulative marketing techniques visible through experiential learning. Created by students in the **CCM (Comprendre & Changer le Monde)** program, WWMM transforms marketing techniques into interactive, narrative worlds where visitors can experience influence first-hand.
 
 WWMM operates as a **playground, not a classroom**—visitors learn by doing rather than by explanation. By placing people inside playful environments where influence can be felt, knowledge becomes awareness that shapes future automatic decisions.
 
@@ -83,7 +83,7 @@ This project is currently in active development. Contributions and feedback are 
 - **Version 1 Repository**: [github.com/ebzgr/wwmm](https://github.com/ebzgr/wwmm)
 - **Version 1 Live Site**: [ebzgr.github.io/wwmm](https://ebzgr.github.io/wwmm/)
 - **Marketing for Betterment**: [mk4bt.org](https://mk4bt.org)
-- **ESSEC Business School**: [essec.edu](https://www.essec.edu)
+
 
 ---
 
@@ -93,6 +93,6 @@ This project is currently in active development. Contributions and feedback are 
 
 ---
 
-**Built with ❤️ at ESSEC**
+**Built with **
 
 *"Leave the shadows, Walk toward the lights"*
