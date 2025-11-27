@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 
-// Using public folder - Vite serves files from public/ at the root path
-const essecLogo = '/essec-logo.png';
+// For public assets in Vite, they're served at {base}filename
+// BASE_URL is '/' in dev and '/Wwmm2/' in production (always ends with /)
+const essecLogo = `${import.meta.env.BASE_URL}essec-logo.png`;
 
 interface EssecScreenProps {
   onComplete: () => void;
@@ -22,7 +23,16 @@ export default function EssecScreen({ onComplete, isTransitioning }: EssecScreen
     <div className={`screen-container essec-screen ${isTransitioning ? 'fade-out' : 'fade-in'}`}>
       <div className="content-center">
         <div className="essec-content">
-          <img src={essecLogo} alt="ESSEC Logo" className="essec-logo" />
+          <img 
+            src={essecLogo} 
+            alt="ESSEC Logo" 
+            className="essec-logo"
+            onError={(e) => {
+              console.error('Failed to load ESSEC logo:', essecLogo, 'BASE_URL:', import.meta.env.BASE_URL);
+              // Fallback: try without base URL
+              (e.target as HTMLImageElement).src = '/essec-logo.png';
+            }}
+          />
           <h2 className="essec-title">Designed at ESSEC</h2>
           <p className="essec-location">Paris, France</p>
         </div>
