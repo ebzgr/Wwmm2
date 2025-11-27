@@ -16,7 +16,6 @@ This project is part of the **Marketing for Betterment** initiative and serves t
 - **Scientific research**: Provide an experimental environment for studying awareness, persuasion, and resilience
 - **Policy support**: Offer concrete illustrations of manipulative techniques to support regulatory discussions
 
-WWMM was created in four days by ESSEC CCM students and received the **Best Content Award** in CCM 2025.
 
 ---
 
@@ -33,7 +32,7 @@ Version 2 is a complete redesign with modern technology:
 
 ## 🚧 Current Status
 
-**Version 2 is under active development.** The landing page flow is complete (Welcome, Quote, Logo, Marketing Studio, ESSEC, Data Usage, Emotional Nudging, and Under Construction screens). The full interactive experience with the six marketing worlds is being developed.
+**Version 2 is under active development.** The landing page flow is complete but the full interactive experience with the six marketing worlds is being developed.
 
 ---
 
