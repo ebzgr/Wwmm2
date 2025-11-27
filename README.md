@@ -71,19 +71,6 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🎨 Design Philosophy
-
-Version 2 uses a minimal, light design with clean aesthetics, smooth animations, and full-screen immersion. Built with accessibility in mind using Radix UI primitives.
-
----
-
-## 📚 Academic Context
-
-WWMM was created by students in the **Comprendre & Changer le Monde (CCM)** program at ESSEC Business School. The project demonstrates how modern AI tools and mentorship can empower students without prior programming experience to address real societal challenges.
-
-Future ESSEC cohorts will continue developing WWMM by designing new worlds, refining content, building experiments, and analyzing data, making it both a public-facing platform and a living example of ESSEC's commitment to creativity, responsibility, and meaningful social impact.
-
----
 
 ## 🤝 Contributing
 
@@ -91,11 +78,6 @@ This project is currently in active development. Contributions and feedback are 
 
 ---
 
-## 📄 License
-
-This project is created for educational purposes as part of the ESSEC Business School CCM program.
-
----
 
 ## 🔗 Links
 
