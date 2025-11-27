@@ -599,7 +599,7 @@ h1, h2, h3, .welcome-title, .statement-title, .logo-letter {
   text-align: center;
   text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
   letter-spacing: 0.08em;
-  animation: fadeInText 0.8s ease forwards;
+  animation: fadeInText 2.5s ease forwards;
   z-index: 10;
   max-width: 90%;
   font-style: normal;

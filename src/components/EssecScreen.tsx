@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
-import essecLogo from 'figma:asset/a3c9b100ee33246f3c51ae119991158ce76382e7.png';
+
+// Using public folder - Vite serves files from public/ at the root path
+const essecLogo = '/essec-logo.png';
 
 interface EssecScreenProps {
   onComplete: () => void;

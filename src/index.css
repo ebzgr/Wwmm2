@@ -855,7 +855,7 @@ h1, h2, h3, .welcome-title, .statement-title, .logo-letter {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  animation: .8s forwards fadeInText;
+  animation: 2.5s ease forwards fadeInText;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -1775,7 +1775,7 @@ h3,
   text-align: center;
   text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
   letter-spacing: 0.08em;
-  animation: fadeInText 0.8s ease forwards;
+  animation: fadeInText 2.5s ease forwards;
   z-index: 10;
   max-width: 90%;
   font-style: normal;

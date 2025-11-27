@@ -119,7 +119,10 @@ export default function WelcomeScreen({ onContinue, isTransitioning }: WelcomeSc
       className={`screen-container ${isTransitioning ? 'fade-out' : 'fade-in'}`}
       onClick={handleInteraction}
       onKeyDown={(e) => {
-        if (e.key) handleInteraction();
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleInteraction();
+        }
       }}
       tabIndex={0}
       role="button"

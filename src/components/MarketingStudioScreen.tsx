@@ -7,7 +7,6 @@ interface MarketingStudioScreenProps {
 
 export default function MarketingStudioScreen({ onComplete, isTransitioning }: MarketingStudioScreenProps) {
   const [animationPhase, setAnimationPhase] = useState<'monitor' | 'sunRising' | 'bright' | 'text'>('monitor');
-  const text = "A Marketing for Betterment Studio Experience";
 
   useEffect(() => {
     // Animation timeline
