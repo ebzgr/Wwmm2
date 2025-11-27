@@ -3,13 +3,12 @@ import WelcomeScreen from './components/WelcomeScreen';
 import QuoteScreen from './components/QuoteScreen';
 import LogoScreen from './components/LogoScreen';
 import MarketingStudioScreen from './components/MarketingStudioScreen';
-import EssecScreen from './components/EssecScreen';
 import DataUsageScreen from './components/DataUsageScreen';
 import EmotionalNudgingScreen from './components/EmotionalNudgingScreen';
 import UnderConstructionScreen from './components/UnderConstructionScreen';
 import './styles/globals.css';
 
-export type Screen = 'welcome' | 'quote' | 'logo' | 'studio' | 'essec' | 'data' | 'emotional' | 'complete';
+export type Screen = 'welcome' | 'quote' | 'logo' | 'studio' | 'data' | 'emotional' | 'complete';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('welcome');
@@ -40,9 +39,7 @@ export default function App() {
       case 'logo':
         return <LogoScreen key="logo" onComplete={() => fadeTransition('studio')} isTransitioning={isFadingOut} />;
       case 'studio':
-        return <MarketingStudioScreen key="studio" onComplete={() => fadeTransition('essec')} isTransitioning={isFadingOut} />;
-      case 'essec':
-        return <EssecScreen key="essec" onComplete={() => fadeTransition('data')} isTransitioning={isFadingOut} />;
+        return <MarketingStudioScreen key="studio" onComplete={() => fadeTransition('data')} isTransitioning={isFadingOut} />;
       case 'data':
         return <DataUsageScreen key="data" onContinue={() => fadeTransition('emotional')} isTransitioning={isFadingOut} />;
       case 'emotional':

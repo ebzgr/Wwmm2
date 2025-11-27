@@ -1,8 +1,15 @@
 import { useEffect } from 'react';
 
-// For public assets in Vite, they're served at {base}filename
-// BASE_URL is '/' in dev and '/Wwmm2/' in production (always ends with /)
-const essecLogo = `${import.meta.env.BASE_URL}essec-logo.png`;
+// Public assets in Vite with base path: must use BASE_URL
+// BASE_URL is '/' in dev, '/Wwmm2/' in production (always ends with /)
+const getLogoPath = () => {
+  const base = import.meta.env.BASE_URL;
+  // Ensure no double slashes
+  const path = base.endsWith('/') ? `${base}essec-logo.png` : `${base}/essec-logo.png`;
+  console.log('ESSEC Logo Path:', path, 'BASE_URL:', base);
+  return path;
+};
+const essecLogo = getLogoPath();
 
 interface EssecScreenProps {
   onComplete: () => void;

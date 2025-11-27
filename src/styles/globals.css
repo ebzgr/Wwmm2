@@ -757,7 +757,7 @@ h1, h2, h3, .welcome-title, .statement-title, .logo-letter {
   text-transform: uppercase;
   font-size: clamp(1.25rem, 3vw, 2rem);
   font-weight: 500;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.125rem;
 }
 
 .essec-location {
